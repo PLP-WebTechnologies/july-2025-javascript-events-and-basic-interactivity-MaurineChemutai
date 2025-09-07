@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Health Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏥 Community Health Assistant</h1>
+
+  <!-- Theme Toggle -->
+ <button id="modeBtn">Switch Theme</button>
+
+  <!-- Steps Tracker -->
+  <section>
+    <h2>🚶 Daily Steps Tracker</h2>
+    <p>Steps: <span id="count">0</span></p>
+    <button id="incBtn">Add Step</button>
+  </section>
+
+  <!-- Health Check-In Form -->
+  <section>
+    <h2>📝 Health Check-In</h2>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Full Name"><br>
+      <input type="email" id="email" placeholder="Email"><br>
+      <input type="text" id="symptoms" placeholder="Symptoms (e.g. fever, cough)"><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>❓ Health FAQ</h2>
+    <button class="faqBtn">What is a healthy diet?</button>
+    <p class="faqAns">A healthy diet includes fruits, vegetables, whole grains, and plenty of water.</p>
+
+    <button class="faqBtn">How many hours should I sleep?</button>
+    <p class="faqAns">Adults should sleep 7–9 hours per night for good health.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

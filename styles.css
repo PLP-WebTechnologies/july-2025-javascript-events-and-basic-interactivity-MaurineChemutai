@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+  background: #fff;
+  color: #000;
+}
+
+/* Dark Mode Styles */
+.dark {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark h1, 
+.dark h2 {
+  color: #90ee90; /* light green for visibility in dark mode */
+}
+
+h1, h2 {
+  color: #2e7d32; /* normal mode headings */
+}
+
+button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#msg {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.faqAns {
+  display: none;
+  margin: 5px 0 15px;
+  color: #555;
+}
